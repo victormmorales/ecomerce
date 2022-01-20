@@ -10,8 +10,8 @@ export default function MenuWeb() {
             <MenuPlatforms />
           </Grid.Column>
 
-          <Grid.Column className="menu__right" width={6}>
-            <h2>Menu Usuario</h2>
+          <Grid.Column className="menu__right" width={10}>
+            <MenuOptions />
           </Grid.Column>
         </Grid>
       </Container>
@@ -31,6 +31,17 @@ function MenuPlatforms() {
       <Link href="/switch">
         <Menu.Item as="a">Switch</Menu.Item>
       </Link>
+    </Menu>
+  );
+}
+
+function MenuOptions() {
+  return (
+    <Menu>
+      <Menu.Item>
+        <Icon name="user outline" />
+        Mi Cuenta
+      </Menu.Item>
     </Menu>
   );
 }
