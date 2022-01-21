@@ -1,3 +1,8 @@
 name s3: game-ecommerce-victor
 
 S3BucketAccessGameEcommerce
+
+s3
+user: strapi-game-ecommerce
+ID de clave de acceso: AKIAYL77L5SSSKWCCNVH
+Clave de acceso secreta: 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
